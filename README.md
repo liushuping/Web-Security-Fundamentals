@@ -15,11 +15,11 @@ Slides briefing all security fundamentals that a Web application developer needs
  * Security Tools [working in progress]
  * References [working in progress]
 
- ## Slides Show
- Follow link: https://liushuping.github.io/Web-Security-Fundamentals/
+## Slides Show
+Follow link: https://liushuping.github.io/Web-Security-Fundamentals/
 
- ## Demo Code
- Follow link: https://github.com/liushuping/Web-Security-Examples
+## Demo Code
+Follow link: https://github.com/liushuping/Web-Security-Examples
 
- ## License
- MIT
+## License
+MIT
