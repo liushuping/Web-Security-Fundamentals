@@ -34,3 +34,4 @@
 
 # OS hidden files
 .DS_Store
+.idea
