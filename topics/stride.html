@@ -27,6 +27,9 @@
         link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
         document.getElementsByTagName( 'head' )[0].appendChild( link );
     </script>
+    <style>
+
+    </style>
 
     <!--[if lt IE 9]>
     <script src="lib/js/html5shiv.js"></script>
@@ -40,11 +43,50 @@
     <div class="slides">
         <section>
             <h1>STRIDE</h1>
+            <p><small>Threats Classification by Microsoft</small></p>
         </section>
-        <section class="owasp">
+        <section>
             <section>
-                <h2>OWASP TOP 10</h2>
+                <h2>Why do we need threats classification?</h2>
             </section>
+            <section class="classification">
+                <img src="../images/stride_classification2.jpg" alt="dental" width="200px">
+                <img src="../images/stride_classification3.jpg" alt="ear" width="200px">
+                <img src="../images/stride_classification2.jpg" alt="dental" width="200px">
+                <img src="../images/stride_classification.jpg" alt="hospital" width="600px">
+            </section>
+        </section>
+        <section>
+            <section>
+                <h2>Spoofing Identity</h2>
+                <p>伪装身份</p>
+            </section>
+            <section>
+                <img src="../images/spoofing.jpg" alt="amazon site">
+            </section>
+            <section>
+                <img src="../images/spoofing_email.jpg" alt="spam">
+            </section>
+        </section>
+        <section>
+            <h2>Tampering with Data</h2>
+            <p>篡改数据</p>
+        </section>
+        <section>
+            <h2>Repudiation</h2>
+            <p>抵赖</p>
+        </section>
+        <section>
+            <h2>Information Disclosure</h2>
+            <p>信息泄露</p>
+        </section>
+        <section>
+            <h2>Denial of Service</h2>
+            <p>拒绝服务</p>
+        </section>
+        <section>
+            <h2>Elevation of Privilege</h2>
+            <p>提升权限</p>
         </section>
     </div>
 
