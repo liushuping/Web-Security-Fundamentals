@@ -92,7 +92,7 @@
 				</section>
 				<section>
 					<h2>Hands-on exercises</h2>
-					<p>Follow <a href="https://github.com/liushuping/Web-Security-Examples/blob/master/README.md#basic-authentication">Basic authentication</a> section from <a href="https://github.com/liushuping/Web-Security-Examples">Web Security Examples</a></p>
+					<p>Follow <a href="https://github.com/liushuping/Web-Security-Examples/blob/master/README.md#basic-authentication">Basic authentication</a>						section from <a href="https://github.com/liushuping/Web-Security-Examples">Web Security Examples</a></p>
 				</section>
 			</section>
 			<section>
@@ -102,13 +102,81 @@
 				<h2>Integrated Windows Authentication</h2>
 			</section>
 			<section>
-				<h2>Forms-base Authentication</h2>
+				<section>
+					<h2>Forms-base Authentication</h2>
+					<!--http://www.asp.net/web-api/overview/security/forms-authentication-->
+					<img src="../images/forms_auth_workflow.png" />
+				</section>
+				<section>
+					<h2>Pros and Cons</h2>
+					<table class="reveal">
+						<thead>
+							<tr>
+								<th>Pros</th>
+								<th>Cons</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Easy to implement</td>
+								<td>Non-Standard</td>
+							</tr>
+							<tr>
+								<td>End-user friendly</td>
+								<td>Requires browser</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td>CSRF vulnerable</td>
+							</tr>
+						</tbody>
+					</table>
+				</section>
+				<section>
+					<h2>Hands-on exercises</h2>
+					<p>Follow <a href="https://github.com/liushuping/Web-Security-Examples/blob/master/README.md#forms-authentication">Forms authentication</a>						section from <a href="https://github.com/liushuping/Web-Security-Examples">Web Security Examples</a></p>
+				</section>
 			</section>
 			<section>
 				<h2>Client Certificate Authentication</h2>
 			</section>
 			<section>
-				<h2>Claims-based Authentication</h2>
+				<section>
+					<h2>Claims-based Authentication</h2>
+					<!--https://msdn.microsoft.com/en-us/library/hh873308(v=vs.110).aspx-->
+					<img src="../images/claims_auth_workflow.jpeg" width="60%" />
+				</section>
+				<section>
+					<h2>Concepts</h2>
+					<table class="reveal">
+						<tbody>
+							<tr>
+								<td>Claim</td>
+								<td>A piece of identity information</td>
+							</tr>
+							<tr>
+								<td>Security Token</td>
+								<td>A serialized set fo claims that digital signed by issuing authority</td>
+							</tr>
+							<tr>
+								<td>Identity Provider (IdP)</td>
+								<td>Provides identifiers for users looking to interact with a system</td>
+							</tr>
+							<tr>
+								<td>Relying Party (RP)</td>
+								<td>Claims aware application</td>
+							</tr>
+							<tr>
+								<td>Security Token Service (STS)</td>
+								<td>A service that builds, signs and issues security tokens</td>
+							</tr>
+						</tbody>
+					</table>
+				</section>
+				<section>
+					<h2>Hands-on exercises</h2>
+					<p>Follow <a href="https://github.com/liushuping/Web-Security-Examples/blob/master/README.md#claims-authentication">Claims-based authentication</a>						section from <a href="https://github.com/liushuping/Web-Security-Examples">Web Security Examples</a></p>
+				</section>
 			</section>
 			<section>
 				<h2>Multi-factor Authentication</h2>
